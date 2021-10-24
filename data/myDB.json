@@ -1,0 +1,178 @@
+{
+  "comments": [
+    {
+      "name": "Elham",
+      "email": "elham.d@gmail.com",
+      "content": "I think every thing in this website looks great!",
+      "date": "Saturday, September 11 2021",
+      "id": 1
+    },
+    {
+      "name": "Elham",
+      "email": "elham@gmail.com",
+      "content": "I want to thank you for this fantastic recipes!",
+      "date": "Monday, September 13 2021",
+      "id": 2
+    },
+    {
+      "name": "Farhad",
+      "email": "farhad@gmail.com",
+      "content": "please add more recipes",
+      "date": "Monday, September 13 2021",
+      "id": 3
+    },
+    {
+      "name": "Reza",
+      "email": "rezaD@gmail.com",
+      "content": "I also play tennis every now and then...",
+      "date": "Monday, September 13 2021",
+      "id": 4
+    },
+    {
+      "name": "mahmood",
+      "email": "mahmood@gmail.com",
+      "content": "it is amazing",
+      "date": "Monday, September 13 2021",
+      "id": 5
+    },
+    {
+      "name": "Farhad",
+      "email": "farhad.shabani@gmail.com",
+      "content": "It's getting better and better everyday. Hope you the best ...",
+      "date": "Monday, September 13 2021",
+      "id": 6
+    }
+  ],
+  "foods": [
+    {
+      "img": "https://source.unsplash.com/200x300/?food,salad",
+      "names": "Pasta Penned with meatballs",
+      "link": "/homes",
+      "id": 0
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,salmon",
+      "names": "Salmon",
+      "link": "/homes/food-blogs/eachfood",
+      "id": 1
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,rice",
+      "names": "Rice with saffrons & bins",
+      "link": "/homes",
+      "id": 2
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,salad",
+      "names": "Greek Salad",
+      "link": "/homes",
+      "id": 3
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,breakfast",
+      "names": "English Plate",
+      "link": "/homes",
+      "id": 4
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,kebab",
+      "names": "Shishlik",
+      "link": "/homes",
+      "id": 5
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,vegetables",
+      "names": "Vegetables",
+      "link": "/homes",
+      "id": 6
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,soup",
+      "names": "Onion Soup",
+      "link": "/homes",
+      "id": 7
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,pancake",
+      "names": "Pancake",
+      "link": "/homes",
+      "id": 8
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,chicken",
+      "names": "Best chicken breats ever",
+      "link": "/homes",
+      "id": 9
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,steak",
+      "names": " beaf Steak",
+      "link": "/homes",
+      "id": 10
+    },
+    {
+      "img": "https://source.unsplash.com/200x300/?food,bread",
+      "names": "Home made bread",
+      "link": "/homes",
+      "id": 11
+    }
+  ],
+  "explanationE": [
+    {
+      "names": "Yoga",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consecteturjgfksjdfgj mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?yoga",
+      "id": 0
+    },
+    {
+      "names": "Tennis",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quidfjasdjflka consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?tennis",
+      "id": 1
+    },
+    {
+      "names": "Swimming",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, dkdjfoloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?swimming",
+      "id": 2
+    },
+    {
+      "names": "Jogging",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?jogging",
+      "id": 3
+    }
+  ],
+  "explanationI": [
+    {
+      "names": "Reading",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia cdfjlksjflonsequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?reading",
+      "id": 0
+    },
+    {
+      "names": "sleep soon",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?sleep",
+      "id": 1
+    },
+    {
+      "names": "eat healthy",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?health",
+      "id": 2
+    },
+    {
+      "names": "have fun",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates dolorem doloribus, doloremque, ea nobis quia consequuntur possimus, odit recusandae sequi culpa accusantium. Qui, minus labore? Consectetur mollitia animi perspiciatis.",
+      "img": "https://source.unsplash.com/700x300/?fun",
+      "id": 3
+    }
+  ],
+  "socialLinks": [
+    "https://linkedin.com/in/fatemeh-doroodian-7376a683",
+    "http://facebook.com",
+    "http://twitter.com",
+    "https://github.com/Elhamdorudian"
+  ]
+}

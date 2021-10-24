@@ -1,0 +1,115 @@
+.about-holder {
+  position: relative;
+  background-color: var(--color-l);
+}
+.about-me {
+  display: flex;
+  flex-direction: row;
+  margin: var(--space-xxxl) auto var(--space-xl) auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-me-img {
+  margin: var(--space-xs);
+  width: var(--space-xxxxl);
+  height: var(--space-xxxxl);
+}
+.about-me-img:hover {
+  transform: scale(1.01);
+}
+.about-me-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--space-xxxs);
+}
+.my-summary {
+  margin: var(--space-xs);
+  width: var(--space-xxxxl);
+  padding: var(--space-md);
+  height: auto;
+  font-size: calc(var(--text-md) * 0.8);
+  text-align: justify;
+}
+.my-projects {
+  height: 200px;
+  width: 80%;
+  background-color: lightseagreen;
+}
+.my-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--space-xxxl) auto;
+}
+.my-cv .btn {
+  background-color: var(--color-gd);
+  height: var(--space-xl);
+  padding: 0;
+  width: 50%;
+  color: var(--color-f);
+  font-size: var(--text-sm);
+}
+.my-cv .btn:hover {
+  background-color: var(--color-gdd);
+}
+.my-cv .btn:hover,
+.my-cv .btn:focus,
+.my-cv .btn:active {
+  box-shadow: none !important;
+}
+@media screen and (min-width: 310px) {
+  .my-summary {
+    font-size: var(--text-md);
+  }
+  .my-cv .btn {
+    font-size: var(--text-md);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .about-me-img {
+    width: calc(var(--space-xxxxl) * 1.25);
+    height: calc(var(--space-xxxxl) * 1.25);
+  }
+  .my-summary {
+    margin: var(--space-sm);
+    width: calc(var(--space-xxxxl) * 1.25);
+    font-size: var(--text-md);
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-me-img {
+    width: calc(var(--space-xxxxl) * 1.4);
+    height: calc(var(--space-xxxxl) * 1.4);
+  }
+  .my-summary {
+    margin: var(--space-xs);
+    width: calc(var(--space-xxxxl) * 1.4);
+    font-size: calc(var(--text-md) * 1.1);
+  }
+}
+@media screen and (min-width: 900px) {
+  .about-me-img {
+    margin: calc(var(--space-md * 0.6));
+    width: calc(var(--space-xxxxl) * 1.4);
+    height: calc(var(--space-xxxxl) * 1.4);
+  }
+  .my-summary {
+    margin: calc(var(--space-md * 0.6));
+    width: calc(var(--space-xxxxl) * 1.4);
+    font-size: calc(var(--text-md) * 1.3);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .about-me-img {
+    width: calc(var(--space-xxxxl) * 1.6);
+    height: calc(var(--space-xxxxl) * 1.6);
+  }
+  .my-summary {
+    width: calc(var(--space-xxxxl) * 1.6);
+    font-size: calc(var(--text-md) * 1.4);
+  }
+}

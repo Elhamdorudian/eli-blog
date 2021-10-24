@@ -1,0 +1,27 @@
+.footer {
+  color: var(--color-d);
+  padding: var(--space-md);
+  background-color: var(--color-gd);
+  align-items: center;
+  margin-top: auto;
+}
+.footer h3 {
+  font-size: var(--text-lg);
+  font-style: italic;
+}
+.footer-brand {
+  text-align: center;
+  font-size: var(--text-sm);
+  margin: 0 auto;
+}
+.copy-right p {
+  margin: 0 auto;
+}
+.sIcon {
+  fill: var(--color-d);
+  width: var(--space-lg);
+  height: var(--space-lg);
+}
+.sIcon:hover {
+  fill: var(--color-f);
+}

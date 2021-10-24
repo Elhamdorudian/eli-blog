@@ -1,0 +1,122 @@
+.each-holder {
+  background-color: var(--color-light);
+  padding-top: var(--space-xxxl);
+  background-color: var(--color-fade);
+  color: var(--color-dark);
+}
+.each-text {
+  font-size: calc(var(--text-xs) * 1.1);
+  text-align: justify;
+  text-justify: inter-word;
+  color: var(--color-dark);
+  padding-top: var(--space-md);
+}
+.title-holder {
+  display: flex;
+  height: var(--space-xl);
+  padding: calc(var(--space-lg) * 1.2) var(--space-md)
+    calc(var(--space-lg) * 1.2) var(--space-md);
+
+  align-items: center;
+}
+.detail-card {
+  margin-bottom: var(--space-sm);
+  margin-top: var(--space-sm);
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+}
+.each-card-title {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  justify-content: space-around;
+}
+.each-holder small {
+  color: var(--color-fade);
+}
+.each-author {
+  font-size: var(--text-xs);
+}
+.card-img-each {
+  width: 100%;
+  height: 100%;
+  max-height: 700px;
+  border-radius: 0px;
+}
+.card-body-each {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  margin: auto;
+}
+.card-each {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: var(--space-xxl);
+}
+.detail-card-like {
+  font-size: var(--text-xl);
+}
+.ingredients {
+  width: 75%;
+  margin: auto;
+}
+
+/*
+--------------------------------------------------------
+                      Ingredients
+---------------------------------------------------------
+*/
+
+.ingredients,
+.title-ingredients,
+.instructions,
+.title-instructions {
+  width: 75%;
+  margin: auto;
+  padding-bottom: var(--space-md);
+}
+.ingredients,
+.instructions {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-bottom: var(--space-xxl);
+  padding-left: var(--space-xxl);
+  padding-right: var(--space-xxl);
+}
+.holder-ingredients {
+  padding-left: var(--space-xxl);
+  padding-right: var(--space-xxl);
+}
+.ingredients,
+.instructions {
+  padding-left: calc(var(--space-md) * 0.85);
+}
+
+/*
+--------------------------------------------------------
+                      MEDIA QUERIES
+---------------------------------------------------------
+*/
+@media screen and (min-width: 310px) {
+  .each-text {
+    font-size: calc(var(--text-xs) * 1.3);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .each-text {
+    font-size: calc(var(--text-xs) * 1.5);
+  }
+}
+@media screen and (min-width: 768px) {
+  .each-text {
+    font-size: calc(var(--text-xs) * 1.7);
+    padding-top: var(--space-lg);
+  }
+}
+@media screen and (min-width: 900px) {
+  .each-text {
+    font-size: calc(var(--text-xs) * 1.9);
+  }
+}

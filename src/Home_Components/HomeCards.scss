@@ -1,0 +1,223 @@
+.home-card-template {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.home-card {
+  position: relative;
+  border: none !important;
+  background: transparent;
+  text-align: center;
+}
+.home-card-img {
+  border-radius: var(--space-xxs);
+  height: 300px;
+  object-fit: cover;
+}
+.home-card-body {
+  padding: var(--space-lg);
+  background-color: var(--color-l);
+}
+.home-card-title {
+  font-size: var(--text-md);
+  font-weight: bold;
+  color: var(--color-d);
+  margin-bottom: var(--space-xs);
+}
+.home-card-text {
+  font-size: calc(var(--text-xs) * 1.4);
+  color: var(--color-d);
+  padding: var(--space-xxs);
+}
+.home-card-btn {
+  border-radius: var(--space-xxxs);
+  height: calc(var(--space-xl) * 1.1);
+  padding: 0;
+  border: 2px solid var(--color-g) !important;
+  background-color: var(--color-g) !important;
+}
+a.home-cards-link {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  background-color: transparent !important;
+  color: var(--color-l);
+  font-size: calc(var(--text-xs) * 1.1);
+}
+.home-card-btn:hover,
+.home-card-btn:focus,
+.home-card-btn:active {
+  background-color: var(--color-gdd) !important;
+  border: 2px solid var(--color-gdd) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  .home-cards-link {
+    color: var(--color-l);
+  }
+}
+.home-cards-link:hover {
+  color: var(--color-l);
+}
+.one {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.three {
+  grid-column: 1/3;
+  grid-row: 4;
+}
+.four {
+  grid-column: 1/3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 1/3;
+  grid-row: 5;
+}
+.six {
+  grid-column: 1/3;
+  grid-row: 6;
+}
+.home-card-holder {
+  margin-right: var(--space-xl);
+  margin-left: var(--space-xl);
+  border: none !important;
+}
+.home-card-body-inner {
+  background-color: var(--color-l);
+}
+
+/*
+---------------------------------------------------------
+                   Homes.jsx Part
+---------------------------------------------------------
+*/
+
+.homes {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 750px;
+  height: auto;
+  top: -10px;
+  z-index: -1;
+}
+
+.homes-card {
+  height: auto;
+  background-color: var(--color-l);
+}
+
+/*
+---------------------------------------------------------
+                      MEDIA QUERIES
+---------------------------------------------------------
+*/
+
+@media screen and (min-width: 310px) {
+  .home-card-body {
+    padding: var(--space-xl);
+  }
+  .home-card-img {
+    height: 350px;
+  }
+  .home-card-title {
+    font-size: var(--text-lg) !important;
+    margin-bottom: var(--space-md);
+  }
+  .home-card-text {
+    font-size: calc(var(--text-xs) * 1.6);
+  }
+  .home-card-btn {
+    border: 2px solid var(--color-g);
+  }
+  .home-card-btn .home-cards-link {
+    font-size: calc(var(--text-xs) * 1.5);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .home-card-img {
+    height: 550px;
+  }
+  .home-card-body {
+    padding: var(--space-xl) !important;
+  }
+  .home-card-title {
+    font-size: var(--text-xl) !important;
+    margin-bottom: var(--space-md);
+  }
+  .home-card-text {
+    font-size: var(--text-md);
+    margin-bottom: var(--space-lg);
+  }
+  .home-card-btn .home-cards-link {
+    font-size: calc(var(--text-xs) * 1.7);
+  }
+  .home-cards-link {
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-card-template {
+    align-items: center;
+  }
+  .home-card {
+    text-align: left;
+  }
+  .home-card-img {
+    height: 450px;
+  }
+  .home-card-title {
+    font-size: var(--text-xl) !important;
+    margin-bottom: var(--space-md);
+  }
+  .home-card-text {
+    font-size: var(--text-md);
+    margin-bottom: var(--space-lg);
+  }
+  .home-card-btn .home-cards-link {
+    font-size: calc(var(--text-xs) * 1.7);
+    text-decoration: none;
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .six {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+}
+@media screen and (min-width: 900px) {
+  .home-card-img {
+    height: 500px;
+  }
+  .home-card-title {
+    font-size: var(--text-xxxl) !important;
+  }
+  .home-card-text {
+    font-size: var(--text-xl);
+  }
+}

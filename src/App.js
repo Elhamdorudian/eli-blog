@@ -13,8 +13,18 @@ import AboutMe from "./About_Me/aboutMe.jsx";
 import { allItems } from "./Data/AllData.jsx";
 import { cardExplainInfo } from "./Data/HomeCardsData.jsx";
 import ContactUs from "./ContactUs_Components/ContactUs";
+import { useEffect } from "react";
+import TagManager from 'react-gtm-module';
 
-function App(props) {
+const App = (props) => {
+  
+  useEffect(() => {
+    TagManager.initialize({
+      gtmId: 'GTM-MWBNK77',
+    });
+  }, []);
+
+
   return (
     <Router>
       <div className="App">

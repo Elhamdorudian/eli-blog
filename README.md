@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 > `2` Install the dependencies using _npm install_.
 > `4` Start the development server using npm start.
 
-* Open your browser and visit http://localhost:3000/login to view the app.
+* Open your browser and visit http://localhost:3000 to view the app.
 
 # Built With
 * React

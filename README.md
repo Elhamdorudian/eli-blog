@@ -10,7 +10,7 @@ This is my personal blog, in which I tried to talk about my interests and daily 
 # Getting Started
 To get started with this project, follow these steps:
 
-* Clone the repository to your local machine using git clone https://github.com/Elhamdorudian/dashboard-plans.git.
+* Clone the repository to your local machine using git clone https://github.com/Elhamdorudian/eli-blog.git.
 
 > `1` Navigate to the project directory using _cd eli-blog_.
 > `2` Install the dependencies using _npm install_.
@@ -24,4 +24,4 @@ To get started with this project, follow these steps:
 
 ![Home Page](https://github.com/Elhamdorudian/eli-blog/blob/master/src/images/readme/blog-1.png)
 ![Blogs](https://github.com/Elhamdorudian/eli-blog/blob/master/src/images/readme/blog-2.png)
-![Blogs](https://github.com/Elhamdorudian/eli-blog/blob/master/src/images/readme/blog-1.png)
+![Blogs](https://github.com/Elhamdorudian/eli-blog/blob/master/src/images/readme/blog-3.png)
